@@ -64,22 +64,22 @@ def iDo(animaldoes):
     animaldoes.whatIdo()
     
 # Calling the above functions with objects as arguments to illustrate polymorphism
-print ""
+
 print "Dog says ..."
 whatAmi(dogObject)
 soundImake(dogObject)
 iDo(dogObject)
-print ""
+
 print "Cat says ..."
 whatAmi(catObject)
 soundImake(catObject)
 iDo(catObject)
-print ""
+
 print "Wolf says ..."
 whatAmi(wolfObject)
 soundImake(wolfObject)
 iDo(wolfObject)
-print ""
+
 print "Tiger says ..."
 whatAmi(tigerObject)
 soundImake(tigerObject)
