@@ -6,7 +6,7 @@
 
 
 
-# In[1]:
+# In[4]:
 
 # Create Animal() superclass object.
 class Animal(object):
@@ -59,8 +59,8 @@ class Cat(Animal):
 
 dogObject = Dog()
 catObject = Cat()
-tigerObject = Cat()
 wolfObject = Dog()
+tigerObject = Cat()
 
 # Functional polymorphisms
 
@@ -85,12 +85,12 @@ whatAmi(catObject)
 soundImake(catObject)
 iDo(catObject)
 print ""
-print "Tiger says ..."
-whatAmi(tigerObject)
-soundImake(tigerObject)
-iDo(tigerObject)
-print ""
 print "Wolf says ..."
+whatAmi(wolfObject)
+soundImake(wolfObject)
+iDo(wolfObject)
+print ""
+print "Tiger says ..."
 whatAmi(tigerObject)
 soundImake(tigerObject)
 iDo(tigerObject)
