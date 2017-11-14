@@ -6,7 +6,7 @@
 
 
 
-# In[25]:
+# In[1]:
 
 # Create Animal() superclass object.
 class Animal(object):
