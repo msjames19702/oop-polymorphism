@@ -1,3 +1,8 @@
+
+# coding: utf-8
+
+# In[5]:
+
 # Create Animal() superclass object.
 class Animal(object):
     
@@ -66,37 +71,48 @@ animalObject = Animal()
 dogObject = Dog()
 catObject = Cat()
 cowObject = Cow()
+tigerObject = Cat()
         
 # Functional polymorphisms
 
 def whatAmi(animaltype):
     animaltype.whoAmi()
-
+    
 def soundImake(animalsound):
     animalsound.sound()
-
+    
 def iDo(animaldoes):
     animaldoes.whatIdo()
 
 # Calling objects as parameters to make use of polymorphism
 
-print ""
+print"..."
 whatAmi(dogObject)
 soundImake(dogObject)
 iDo(dogObject)
-print ""
+print "..."
 
 whatAmi(catObject)
 soundImake(catObject)
 iDo(catObject)
-print ""
+print "..."
 
 whatAmi(cowObject)
 soundImake(cowObject)
 iDo(cowObject)
-print ""
+print "..."
+
+whatAmi(tigerObject)
+soundImake(tigerObject)
+iDo(tigerObject)
+print "..."
 
 # Making use of class objects but not using polymorphism
 
+print "Tiger says", whatAmi(tigerObject)
+print "Tiger says", soundImake(tigerObject)
+print "Tiger says", iDo(tigerObject)
+print "..."
 print "The species of a dog is "+dogObject.species
 print "Mammals are "+catObject.bloodtype
+
