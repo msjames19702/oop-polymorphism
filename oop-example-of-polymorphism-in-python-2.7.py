@@ -1,13 +1,3 @@
-
-# coding: utf-8
-
-# In[ ]:
-
-
-
-
-# In[4]:
-
 # Create Animal() superclass object.
 class Animal(object):
     
@@ -94,9 +84,3 @@ print "Tiger says ..."
 whatAmi(tigerObject)
 soundImake(tigerObject)
 iDo(tigerObject)
-
-
-# In[ ]:
-
-
-
